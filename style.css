@@ -1,0 +1,68 @@
+body{
+    background-color:peru;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(162, 167, 170);
+    font-size: 12px;
+}
+
+h1{
+    color: peru;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: white;
+    width: 300px;
+    padding: 10px 40px 10px 10px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+.agregar{
+    border: 1px solid peru; 
+    height: 25px;
+    color: peru;
+    padding-left: 10px;
+    
+
+}
+.btn-add{
+    height: 27px;
+    width: 27px;
+    background-color: rgb(187, 243, 165);
+    border-color: rgb(195, 241, 148);
+    color: peru;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.btn-add:hover{
+    background-color: chartreuse;
+    
+}
+li{
+    height: 25px;
+    border: 1px solid rgb(187, 183, 183);
+    display:flex ;
+    background-color: rgb(241, 218, 197);
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+li>p{
+    margin: auto;
+    text-align: left;
+
+}
+.btn-delete{
+    height: 25px;
+    
+    background-color: peru;
+    border:none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn-delete:hover{
+    background-color: rgb(221, 109, 109);
+}
